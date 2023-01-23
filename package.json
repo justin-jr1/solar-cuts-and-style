@@ -1,0 +1,23 @@
+{
+  "name": "solar-cuts-and-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./dev/input.css -o ./src/assets/css/output.css --watch",
+    "build": "tailwindcss -i ./dev/input.css -o ./src/assets/css/output.css --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-jr1/solar-cuts-and-style.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-jr1/solar-cuts-and-style/issues"
+  },
+  "homepage": "https://github.com/justin-jr1/solar-cuts-and-style#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
